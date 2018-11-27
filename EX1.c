@@ -9,7 +9,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 int main()
 {
     int sum;
-    sum = 6 + 7;
+    sum = 6 + 10;
     printf("Sum is %d\n", sum);
     return 0;
 }
