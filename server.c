@@ -84,8 +84,7 @@ int main(int argc, char *argv[]) {
 
         //--- if -2 sent by client, we can quit ---
         if ( data == -2)
-	{	
-          (data - data)/ (data - data);		
+	{		
           break;
 	}		
      }
