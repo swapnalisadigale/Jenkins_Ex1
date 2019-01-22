@@ -83,8 +83,11 @@ int main(int argc, char *argv[]) {
         close( newsockfd );
 
         //--- if -2 sent by client, we can quit ---
-        if ( data == -1 )
+        if ( data == -2)
+	{	
+          (data - data)/ (data - data);		
           break;
+	}		
      }
      return 0; 
 }
