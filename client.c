@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 
     if (argc < 3) {
       // error( const_cast<char *>( "usage myClient2 hostname port\n" ) );
-      printf( "contacting %s on port %d\n", serverIp, portno );
+      printf( "Contacting %s on port %d\n", serverIp, portno );
       // exit(0);
     }
     if ( ( sockfd = socket(AF_INET, SOCK_STREAM, 0) ) < 0 )
